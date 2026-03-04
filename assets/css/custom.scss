@@ -12,7 +12,10 @@
   color: white;
   font-weight: 500;
 }
-
+body {
+  font-size: 1.1rem; /* Slightly larger for easier reading */
+  line-height: 1.6;
+}
 /* Sidebar readability */
 .nav-list .nav-list-link {
   font-weight: 500;
