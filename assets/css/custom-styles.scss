@@ -1,0 +1,12 @@
+/* Create a layout for research advocacy */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 250px; /* 250px for your right sidebar */
+  gap: 2rem;
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    grid-template-columns: 1fr; /* Stack on mobile for readability */
+  }
+}
