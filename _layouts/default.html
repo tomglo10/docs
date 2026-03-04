@@ -1,0 +1,24 @@
+<div id="main-content" class="main-content">
+  <div class="research-grid-layout"> <main>
+      {% if site.heading_anchors != false %}
+        {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg...></svg>" %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+
+      {% if page.has_toc != false %}
+        {% include components/children_nav.html %}
+      {% endif %}
+    </main>
+
+    <aside class="sidebar-right">
+      <div class="sidebar-content">
+        <h3>Research Notes</h3>
+        <p><small>Independent insights by Tommy T. Douglas.</small></p>
+        <hr>
+        <p><small><strong>Disclaimer:</strong> Educational purposes only. Consult your doctor.</small></p>
+      </div>
+    </aside>
+    </div>
+  {% include components/footer.html %}
+</div>
