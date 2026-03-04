@@ -14,3 +14,13 @@
     grid-template-columns: 1fr; /* Stack on mobile for readability */
   }
 }
+.table-wrapper table {
+  font-size: 1.1rem; /* Larger text for clinical data */
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Adds a "gap" between rows for clarity */
+}
+
+.table-wrapper th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
