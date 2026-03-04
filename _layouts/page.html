@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article>
+  <header class="page-header">
+    {% if page.last_modified_date %}
+      <p class="last-modified">
+        <small><em>Last updated: {{ page.last_modified_date | date: "%B %e, %Y" }}</em></small>
+      </p>
+    {% endif %}
+  </header>
+
+  {{ content }}
+
+  <hr>
+  <footer class="research-footer">
+    <p><strong>Independent Health Researcher:</strong> Tommy T. Douglas</p>
+    <p><small><strong>Medical Disclaimer:</strong> This research is for educational and advocacy purposes. As a patient advocate and heart attack survivor, I provide these insights based on clinical data and lived experience. Please consult your physician before altering any medical regimen.</small></p>
+  </footer>
+</article>
