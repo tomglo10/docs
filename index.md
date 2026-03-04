@@ -1,4 +1,9 @@
 ---
+layout: default
+title: "Metformin & GLP-1: A Clinical Review"
+has_toc: true      # This turns on the jump links
+nav_order: 1
+------
 title: "Home"
 layout: default
 nav_order: 1
