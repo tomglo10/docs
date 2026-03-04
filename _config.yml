@@ -1,13 +1,17 @@
-title: "Aging Health"
-description: "Clear, senior-friendly health insights"
-theme: "just-the-docs"
+# Just the Docs Settings
+theme: jekyll-theme-just-the-docs
 
-url: "https://tomglo10.github.io"
-baseurl: "/docs"
+# This enables the "Table of Contents" on the right for long research posts
+toc:
+  enabled: true
+  max_level: 3
 
-aux_links:
-  "Template Repository":
-    - "https://github.com/just-the-docs/just-the-docs-template"
+# This allows you to add a custom "Call to Action" or Bio at the bottom of the left nav
+side_bar:
+  custom_content: |
+    <hr>
+    <p><strong>Tommy T. Douglas</strong></p>
+    <p><small>Independent Researcher & Heart Attack Survivor (2008)</small></p>
 color_scheme: medical
 search_enabled: true
 heading_anchors: true
