@@ -3,49 +3,38 @@
 
 @import "just-the-docs";
 
-/* Header Styling */
+/* Softer header */
 .site-header {
-  background-color: #1e3a8a;
+  background-color: #2c5282;
 }
 
 .site-title {
-  color: #ffffff;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
 }
 
-/* Sidebar Styling */
-.side-bar {
-  border-right: 1px solid #e5e7eb;
-}
-
+/* Sidebar readability */
 .nav-list .nav-list-link {
   font-weight: 500;
 }
 
-.nav-list .nav-list-link:hover {
-  color: #2563eb;
-}
-
-/* Buttons */
-.btn-primary {
-  background-color: #1e40af;
-  border-radius: 6px;
-}
-
-.btn-primary:hover {
-  background-color: #1e3a8a;
-}
-
-/* Headings */
+/* Post headings */
 h1, h2, h3 {
-  color: #1e3a8a;
+  color: #2b6cb0;
 }
 
-/* Callout Box for Medical Notes */
-.medical-note {
-  background-color: #eff6ff;
-  border-left: 4px solid #2563eb;
+/* Research callout */
+.research-note {
+  background-color: #edf2f7;
+  border-left: 4px solid #3182ce;
   padding: 1rem;
+  margin: 1.5rem 0;
   border-radius: 4px;
-  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+/* Citation styling */
+.citation {
+  font-size: 0.9rem;
+  color: #4a5568;
 }
