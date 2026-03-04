@@ -30,6 +30,5 @@ gem "jekyll", "~> 4.3.3"
 gem "just-the-docs"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
-theme: bulma-clean-theme
-$ bundle
+gem "bulma-clean-theme"
 end 
