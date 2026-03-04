@@ -24,4 +24,10 @@ group :development, :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'selenium-webdriver'bundle
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3.3"
+gem "just-the-docs"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 end 
