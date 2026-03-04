@@ -1,5 +1,5 @@
 # Just the Docs Settings
-theme: jekyll-theme-just-the-docs
+theme: bulma-clean-theme
 
 # This enables the "Table of Contents" on the right for long research posts
 toc:
